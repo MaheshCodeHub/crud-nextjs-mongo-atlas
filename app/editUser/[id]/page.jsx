@@ -3,7 +3,7 @@ import React from 'react'
 
 const getTopicById= async (id)=>{
   try {
-      const res= await fetch(`http://localhost:3000/api/user/${id}`,{
+      const res= await fetch(`/api/user/${id}`,{
           cache: "no-cache"
       })
       if(!res.ok){
