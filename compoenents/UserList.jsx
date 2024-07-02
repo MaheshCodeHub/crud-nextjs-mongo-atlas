@@ -8,7 +8,7 @@ function UserList() {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await fetch('https://crud-nextjs-mongo-atlas.vercel.app/api/user');
+        const response = await fetch('http://localhost:3000/api/user');
         console.log('Response:', response);
         if (response.ok) {
           const data = await response.json();
