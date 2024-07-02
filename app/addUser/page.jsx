@@ -3,10 +3,10 @@ import { Joan } from "next/font/google";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
+const [email, setEmail] = useState("")
+const [password, setPassword] = useState("")
 
 function AddUser () {
-  const [email, setEmail] = useState("")
-  const [password, setPassword] = useState("")
 
   const router=useRouter()
 
