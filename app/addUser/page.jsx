@@ -42,7 +42,7 @@ function AddUser () {
   return (
     <div className="container h-screen my-10">
       <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-        <div className="relative z-0 w-full mb-5 group">
+        <div className="relative z-0 w-full mb-5 group ">
           <input
             type="email"
             name="email"
@@ -89,4 +89,4 @@ function AddUser () {
   );
 }
 
-export default AddUser ;
+export default AddUser;
