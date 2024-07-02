@@ -28,7 +28,7 @@ function UserList() {
   const deleteUser = async (userId) => {
   alert(userId); // Just for testing
   try {
-    const response = await fetch(`/user?id=${userId}`, {
+    const response = await fetch(`/api/user?id=${userId}`, {
       method: 'DELETE',
     });
     console.log('Response:', response); // Log the response
