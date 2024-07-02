@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 
-function addUser() {
+function AddUser () {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
@@ -89,4 +89,4 @@ function addUser() {
   );
 }
 
-export default addUser;
+export default AddUser ;
